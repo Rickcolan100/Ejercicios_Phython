@@ -1,7 +1,7 @@
 import random
 numero_aleatorio = random.randrange(100)
 gane = False
-print("Tenés 6 intentos para adivinar un entre 0 y 99")
+print("Tenés 5 intentos para adivinar un entre 0 y 99")
 intento = 1
 while intento < 6 and not gane:
     numeroIngresado = int(input('Ingresa tu número: '))
