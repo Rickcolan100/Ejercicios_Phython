@@ -3,7 +3,7 @@ num_random = random.randrange(100)
 ok = False
 print("Ingresa 5 numeros entre 0 y 99")
 intento = 1
-while intento < 6 and not gane:
+while intento < 6 and not ok:
     num_ing = int(input('Ingresa tu numero: '))
     if num_ing == num_random:
          print('Adivinaste el numero y necesitaste {} intentos'.format(intento))
