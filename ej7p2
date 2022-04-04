@@ -1,0 +1,10 @@
+from collections import Counter
+
+palabra = input("Ingrese una palabra: ")
+mas_cercana = Counter(palabra.lower()).most_common(1)
+if mas_cercana[0][1] > 1:
+     print("Es heterogama")
+else:
+     print("No es heterogama")
+
+   
